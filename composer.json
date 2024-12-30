@@ -2,7 +2,8 @@
     "name": "zhrnnsw/dynamicdbinstall",
     "type": "library",
     "require": {
-        "laravel/framework": "composer/composer"
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^8.0|^9.0"
     },
     "autoload": {
         "psr-4": {
@@ -16,10 +17,16 @@
         }
     ],
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/zhrnnsw/dynamicdbinstall/"
+            "url": "https://github.com/zhrnnsw/dynamicdbinstall/"
         }
-    ]
+    ],
+    "scripts": {
+        "post-autoload-dump": [
+            "php artisan vendor:publish --provider=\"Zhrnnsw\\Dynamicdbinstall\\InstallServiceProvider\""
+        ]
+    }
 }
