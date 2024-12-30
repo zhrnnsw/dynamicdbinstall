@@ -20,7 +20,7 @@
     "prefer-stable": true,
     "repositories": [
         {
-            "type": "path",
+            "type": "vcs",
             "url": "https://github.com/zhrnnsw/dynamicdbinstall/"
         }
     ],
