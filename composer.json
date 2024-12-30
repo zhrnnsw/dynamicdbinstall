@@ -1,5 +1,7 @@
 {
     "name": "zhrnnsw/dynamicdbinstall",
+    "description": "A package to dynamically install database configurations",
+    "version": "1.0.0",
     "type": "library",
     "require": {
         "php": "^7.3|^8.0",
