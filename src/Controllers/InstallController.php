@@ -11,7 +11,8 @@ class InstallController extends Controller
 {
     public function index()
     {
-        return view('form');
+        print_r('test');
+        return view('dynamicdbinstall::install');
     }
     public function process(Request $request)
     {

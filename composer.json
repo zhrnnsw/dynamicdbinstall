@@ -11,6 +11,13 @@
             "Zhrnnsw\\Dynamicdbinstall\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zhrnnsw\\DynamicDbInstall\\Providers\\DynamicDbInstallServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Wahono, Z. A.",
