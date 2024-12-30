@@ -1,0 +1,25 @@
+{
+    "name": "zhrnnsw/dynamicdbinstall",
+    "type": "library",
+    "require": {
+        "laravel/framework": "composer/composer"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhrnnsw\\Dynamicdbinstall\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wahono, Z. A.",
+            "email": "zahrannsw@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./packages/zhrnnsw/dynamicdbinstall/"
+        }
+    ]
+}
